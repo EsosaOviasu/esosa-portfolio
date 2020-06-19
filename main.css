@@ -12,6 +12,7 @@ body {
 
 nav {
     background-color: white;
+    height: 150%;
 }
 
 .portfolio-owner, .section-list {
