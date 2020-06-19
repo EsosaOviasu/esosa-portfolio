@@ -14,7 +14,12 @@ nav {
     background-color: white;
 }
 
-.portfolio-owner, .section-list, li {
+.portfolio-owner, .section-list {
+    display: inline-block;
+}
+
+
+.section-list, li {
     display: inline;
     color: black;
 }
