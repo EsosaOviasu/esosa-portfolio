@@ -10,6 +10,11 @@ body {
     background-color: aqua;
 }
 
-.section-list, li {
+nav {
+    background-color: white;
+}
+
+.portfolio-owner, .section-list, li {
     display: inline;
+    color: black;
 }
