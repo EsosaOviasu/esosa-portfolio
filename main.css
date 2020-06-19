@@ -10,6 +10,6 @@ body {
     background-color: aqua;
 }
 
-nav {
+.section-list {
     display: inline-block;
 }
