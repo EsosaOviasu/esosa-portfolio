@@ -12,11 +12,12 @@ body {
 
 nav {
     background-color: white;
-    height: 50px;
+    height: 25px;
 }
 
 .portfolio-owner, .section-list {
     display: inline-block;
+    padding-top: 8px;
 }
 
 
