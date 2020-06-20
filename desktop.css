@@ -7,16 +7,121 @@
         display: none;
     }
 
+
+
     header {
         padding-top: 250px;
         padding-bottom: 100px;
     }
 
+
+
+
     h1 {
         margin-bottom: 80px;
     }
 
+    h2 {
+        margin-bottom: 4vw;
+    }
+
     h4 {
         font-size: 2vw;
+    }
+
+
+
+
+
+    #about-contents {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .headshot {
+        width: 35%;
+        padding-top: 28%;
+        margin-right: 2vw;
+        margin-left: 6vw;
+        margin-bottom: 4vw;
+    }
+
+    .bio {
+        width: 50%;
+    }
+
+    .bio p {
+        text-align: left;
+    }
+
+
+
+    #project-odd {
+        height: 42vw;
+    }
+
+    .appPreview {
+        float: right;
+        width: 35%;
+        padding-top: 28%;
+        margin-right: 6vw;
+        margin-left: 2vw;
+    }
+
+    .appName {
+        width: 55%;
+        text-align: right;
+        margin-top: 85px;
+    }
+
+
+    .techLogo {
+        width: 6%;
+        padding-top: 5.45%;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 1vw;
+        float: left;
+    }
+
+    .htmlLogo {
+        margin-left: 18vw;
+    }
+
+    .appBio p {
+        clear: left;
+        text-align: right;
+        margin-bottom: 4vw;
+    }
+
+    #links {
+        float: left;
+        margin-left: 4vw;
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cont {
+        display: none;
+    }
+
+    .contactInfo {
+        font-size: 1.5vw;
+        position: relative;
+        right: 30px;
+    }
+
+    .contactInfo2 {
+        font-size: 1.5vw;
+        position: relative;
+        right: 10px;
     }
 }

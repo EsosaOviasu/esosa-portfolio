@@ -16,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
 }
 
@@ -61,7 +61,7 @@ h2 {
 }
 
 h3 {
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 h4 {
@@ -101,12 +101,11 @@ section {
     margin-right: 15px;
 }
 
-#project-1 {
+#project-odd {
     background-color: rgb(109, 109, 109);
 }
 
 .appName {
-    font-size: 2vw;
     margin-top:20px;
 }
 
@@ -121,13 +120,12 @@ section {
     margin-right: auto;
 }
 
-.htmlLogo, .cssLogo, .javascriptLogo, .jqueryLogo {
+.techLogo {
     display: inline-block;
     border-radius: 5px;
-    background-color: white;
+    background-color: black;
     width: 11%;
     padding-top: 10%;
-    margin: auto;
 }
 
 .appBio {
@@ -144,13 +142,14 @@ section {
     align-content: center;
     width: 50%;
     margin: auto;
+    margin-bottom: 4vw;
 }
 
 footer {
     background-color: white;
 }
 
-.cont, .contactInfo {
+.cont, .contactInfo, .contactInfo2 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
