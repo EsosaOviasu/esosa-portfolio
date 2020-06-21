@@ -1,16 +1,17 @@
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 700px) {
     .hidden {
         display: inline;
+        margin-right: 2vw;
     }
 
-    #nav-toggle {
+    .nav-toggle {
         display: none;
     }
 
 
 
-    header {
-        padding-top: 250px;
+    .hero {
+        padding-top: 240px;
         padding-bottom: 100px;
     }
 
@@ -28,7 +29,6 @@
     h4 {
         font-size: 2vw;
     }
-
 
 
 
@@ -109,19 +109,12 @@
         width: 100%;
     }
 
-    .cont {
+    .con {
         display: none;
     }
 
     .contactInfo {
         font-size: 1.5vw;
-        position: relative;
-        right: 30px;
-    }
-
-    .contactInfo2 {
-        font-size: 1.5vw;
-        position: relative;
-        right: 10px;
+        margin-right: 5vw;
     }
 }
