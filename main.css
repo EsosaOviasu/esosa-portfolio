@@ -247,3 +247,9 @@ footer {
     padding-bottom: 10px;
     font-weight: bold;
 }
+
+@supports (-ms-ime-align: auto) {
+    .hero {
+          -webkit-text-fill-color: inherit;
+    }
+  }
