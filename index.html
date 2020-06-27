@@ -5,42 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esosa Oviasu Portfolio</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="desktop.css">
 </head>
 <body>
     <nav role="navigation">
         <div class="portfolio-owner">
-            <p>Nav</p>
+            <a class="nav-desk" href="#hia">Esosa Oviasu</a>
         </div>
         <ul class="section-list">
+            <li class="hidden">
+                <a class="nav-desk" href="#abt">About</a>
+            </li>
+            <li class="hidden">
+                <a class="nav-desk" href="#poo">Portfolio</a>
+            </li>
+            <li class="hidden">
+                <a class="nav-desk" href="#cot">Contact</a>
+            </li>
             <li class="compress">
-                <a id="nav-toggle" href="#">Hamburger</a>
+                <a class="nav-toggle">&#9776;</a>
             </li>
         </ul>
     </nav>
+    <div class="expanded hidden">
+        <div class="expanded-item">
+            <a class="nav-toggle" href="#abt">About</a>
+        </div>
+        <div class="expanded-item">
+            <a class="nav-toggle" href="#poo">Portfolio</a>
+        </div>
+        <div class="expanded-item">
+            <a class="nav-toggle" href="#cot">Contact</a>
+        </div>
+    </div>
     <main role="main">
         <header role="banner">
-            <h1>NAME</h1>
+            <div id="hia" class="hero">
+                <h1>Name</h1>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+            </div>
         </header>
-        <section role="about" id="about">
-            <h2>ABOUT</h2>
+        <section role="about" id="abt">
+            <h2>ABOUT ME</h2>
             <div id="about-contents">
-               <h3>ABOUT ME</h3>
+                <div class="headshot">
+                </div>
+                <div class="bio">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
             </div>
         </section>
-        <section role="portfolio">
+        <section role="portfolio" id="poo">
             <h2>PORTFOLIO</h2>
-            <div id="projects">
-                <h3>PROJECT ONE</h3>
+            <div class="project-odd project-one">
+                <div class="appName">
+                    <h3>App Name</h3>
+                </div>
+                <a href="clickable-link" class="preview">
+                    <div class="appPreview">
+                    </div>
+                </a>
+                <div class="techLogo htmlLogo">
+                </div>
+                <div class="techLogo cssLogo">
+                </div>
+                <div class="techLogo javascriptLogo">
+                </div>
+                <div class="techLogo jqueryLogo">
+                </div>
+                <div class="appBio">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div id="links">
+                    <div class="siteLink">
+                        <a href="myGithubPages">Link</a>
+                    </div>
+                    <div class="repoLink">
+                        <a href="myRepo">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-even project-two">
+                <div class="appName evenName">
+                    <h3>App Name</h3>
+                </div>
+                <a href="clickable-link" class="preview">
+                    <div class="appPreview evenPreview">
+                    </div>
+                </a>
+                <div class="techLogo evenLogo htmlLogo htmlEven">
+                </div>
+                <div class="techLogo evenLogo cssLogo">
+                </div>
+                <div class="techLogo evenLogo javascriptLogo">
+                </div>
+                <div class="techLogo evenLogo jqueryLogo">
+                </div>
+                <div class="appBio evenBio">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div id="links" class="evenLinks">
+                    <div class="siteLink">
+                        <a href="myGithubPages">Link</a>
+                    </div>
+                    <div class="repoLink">
+                        <a href="myRepo">Link</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer role="contact">
-        <div class="cont">
+        <div class="contactInfo con">
             <h3>CONTACT</h3>
         </div>
+        <div class="contactInfo hidden">
+            <p>Contact:</p>
+        </div>
         <div class="contactInfo">
-            <p>Contact Info</p>
+            <a href="myGithub">Github</a>
+        </div>
+        <div class="contactInfo">
+            <a href="myLinkedin">Linkedin</a>
+        </div>
+        <div class="contactInfo" id="cot">
+            <a href="">emailAddress</a>
         </div>
     </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </body>
 </html>
