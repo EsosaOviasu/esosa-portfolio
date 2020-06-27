@@ -90,7 +90,7 @@ a.preview:link, a.preview:hover, a.preview:visited {
 }
 
 header {
-    background-color: peachpuff;
+    background-color: rgb(255, 238, 224);
 }
 
 .hero {
@@ -132,11 +132,11 @@ h4 {
 section {
     padding-top: 20px;
     padding-bottom:20px;
-    background-color: peachpuff;
+    background-color: rgb(255, 238, 224);
 }
 
 #abt {
-    background-color: rgb(253, 202, 158);
+    background-color: rgb(226, 226, 226);
     /*box shadow*/
     box-shadow: 0vw 3vw 3vw 1vw black;
 }
@@ -168,11 +168,12 @@ section {
 }
 
 .project-odd {
-    background-color: peachpuff;
+    background-color: rgb(255, 238, 224);
 }
 
 .project-even {
-    background-color: rgb(253, 202, 158);
+    background-color: rgb(226, 226, 226);
+    box-shadow: 0vw 3vw 3vw 1vw black;
     padding-bottom: 4vw;
 }
 
