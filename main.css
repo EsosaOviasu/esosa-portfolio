@@ -19,6 +19,26 @@ nav {
     top: 0px;
     width: 100%;
 }
+/*post hamburger-click*/
+.expanded {
+    background-color: rgb(46, 46, 46);
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 25px;
+    width: 100%;
+}
+
+.expanded-item {
+    width: 100%;
+    height: 25px;
+    text-align: right;
+    padding-right: 2vw;
+    border: 0.3px solid black;
+    box-shadow: 0vw 0vw 0.2vw 0.2vw black;
+}
 
 .portfolio-owner, .section-list {
     display: inline-block;
@@ -39,17 +59,54 @@ nav {
     display: none;
 }
 
+a.nav-desk:link, a.nav-desk:visited {
+    color: white;
+}
 
+a.nav-desk:hover, a.nav-desk:hover {
+    color: grey;
+}
+
+a.nav-toggle:link, a.nav-toggle:visited {
+    color: white;
+}
+
+a.nav-toggle:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(97, 46, 1);
+}
+
+a:hover {
+    color: teal;
+}
+
+a.preview:link, a.preview:hover, a.preview:visited {
+    color: rgba(146, 146, 146, 0);
+}
 
 header {
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(255, 249, 245);
 }
+
 
 .hero {
     padding-top: 80px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
+    /*Activate these properties & css.276 for Chrome/Safari/IE exclusive effect: knockout text
+
+    background: url("https://mocah.org/uploads/posts/4589588-new-york-city-cityscape-city-usa-monochrome.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;*/
 }
 
 h1 {
@@ -77,24 +134,28 @@ h4 {
 section {
     padding-top: 20px;
     padding-bottom:20px;
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(255, 249, 245);
 }
 
 #abt {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(255, 238, 224);
+    /*box shadow*/
+    box-shadow: 0vw 3vw 3vw 1vw black;
 }
 
 #poo {
+    box-shadow: 0vw 3vw 3vw 1vw black;
     padding-bottom: 0;
 }
 
 .headshot {
-    background-color: white;
+    background-image: url("https://i.ibb.co/fdrDLCn/headshot.jpg");
+    background-size: cover;
     width: 50%;
     padding-top: 40%;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 2px solid black;
+    border: 2px solid rgb(97, 46, 1, 0.5);
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -109,11 +170,13 @@ section {
 }
 
 .project-odd {
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(255, 249, 245);
+    padding-bottom: 3vw;
 }
 
 .project-even {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(255, 238, 224);
+    box-shadow: 0vw 3vw 3vw 1vw black;
     padding-bottom: 4vw;
 }
 
@@ -125,12 +188,17 @@ section {
     padding-top: 5vw;
 }
 
+#danceQuizPreview {
+    background-image: url("https://i.ibb.co/Y38SSDp/quizphoto.png");
+    background-size: 100% 100%;
+}
+
 .appPreview {
     background-color: white;
     width: 50%;
     padding-top: 40%;
     margin-bottom: 20px;
-    border: 2px solid black;
+    border: 2px solid rgba(97, 46, 1, 0.5);
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -145,6 +213,29 @@ section {
     padding-top: 10%;
 }
 
+.htmlLogo {
+    background: url("https://cdn.worldvectorlogo.com/logos/html-5.svg");
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.cssLogo {
+    background: url("https://cdn.worldvectorlogo.com/logos/css3.svg");
+    background-size: 100% 100%;
+}
+
+.javascriptLogo {
+    background: url("https://cdn.iconscout.com/icon/free/png-512/javascript-20-555998.png");
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.jqueryLogo {
+    background: url("https://cdn.worldvectorlogo.com/logos/jquery-2.svg");
+    background-size: 100% 100%;
+}
 
 .appBio {
     margin-top: 20px;
@@ -167,7 +258,8 @@ section {
 
 
 footer {
-    background-color: white;
+    background-color: rgb(250, 245, 233);
+    box-shadow: 0vw 3vw 3vw 1vw black;
 }
 
 .contactInfo {
@@ -175,3 +267,16 @@ footer {
     padding-bottom: 10px;
     font-weight: bold;
 }
+
+
+.project-two {
+    display: none;
+}
+
+/* Reference css.102 for activation notes:
+
+@supports (-ms-ime-align: auto) {
+    .hero {
+          -webkit-text-fill-color: inherit;
+    }
+  }*/
