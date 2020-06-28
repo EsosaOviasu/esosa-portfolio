@@ -99,13 +99,14 @@ header {
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
-    /*knockout text*/
+    /*Activate these properties & css.276 for Chrome/Safari/IE exclusive effect: knockout text
+
     background: url("https://mocah.org/uploads/posts/4589588-new-york-city-cityscape-city-usa-monochrome.jpg");
     background-size: cover;
     background-attachment: fixed;
     color: black;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;*/
 }
 
 h1 {
@@ -170,6 +171,7 @@ section {
 
 .project-odd {
     background-color: rgb(255, 249, 245);
+    padding-bottom: 3vw;
 }
 
 .project-even {
@@ -267,8 +269,14 @@ footer {
 }
 
 
+.project-two {
+    display: none;
+}
+
+/* Reference css.102 for activation notes:
+
 @supports (-ms-ime-align: auto) {
     .hero {
           -webkit-text-fill-color: inherit;
     }
-  }
+  }*/
