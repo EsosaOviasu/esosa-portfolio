@@ -90,8 +90,9 @@ a.preview:link, a.preview:hover, a.preview:visited {
 }
 
 header {
-    background-color: rgb(255, 238, 224);
+    background-color: rgb(255, 249, 245);
 }
+
 
 .hero {
     padding-top: 80px;
@@ -132,11 +133,11 @@ h4 {
 section {
     padding-top: 20px;
     padding-bottom:20px;
-    background-color: rgb(255, 238, 224);
+    background-color: rgb(255, 249, 245);
 }
 
 #abt {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 238, 224);
     /*box shadow*/
     box-shadow: 0vw 3vw 3vw 1vw black;
 }
@@ -168,11 +169,11 @@ section {
 }
 
 .project-odd {
-    background-color: rgb(255, 238, 224);
+    background-color: rgb(255, 249, 245);
 }
 
 .project-even {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 238, 224);
     box-shadow: 0vw 3vw 3vw 1vw black;
     padding-bottom: 4vw;
 }
@@ -185,9 +186,13 @@ section {
     padding-top: 5vw;
 }
 
-.appPreview {
+#danceQuizPreview {
     background-image: url("https://i.ibb.co/Y38SSDp/quizphoto.png");
     background-size: 100% 100%;
+}
+
+.appPreview {
+    background-color: white;
     width: 50%;
     padding-top: 40%;
     margin-bottom: 20px;
