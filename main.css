@@ -246,7 +246,7 @@ section {
     line-height: 20px;
 }
 
-#links {
+.links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
