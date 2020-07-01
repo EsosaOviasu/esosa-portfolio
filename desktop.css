@@ -54,6 +54,7 @@
 
     .bio p {
         text-align: left;
+        font-size: 1.5vw;
     }
 
     #portfolio {
@@ -125,6 +126,7 @@
         clear: left;
         text-align: right;
         margin-bottom: 4vw;
+        font-size: 1.5vw;
     }
 
     .evenBio p {
