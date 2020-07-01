@@ -99,7 +99,7 @@ header {
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
-    /*Activate these properties & css.276 for Chrome/Safari/IE exclusive effect: knockout text
+    /*Activate these properties & css.276 for Chrome/Safari/IE exclusive effect: knockout text*/
 
     background: url("https://mocah.org/uploads/posts/4589588-new-york-city-cityscape-city-usa-monochrome.jpg");
     background-size: cover;
@@ -137,13 +137,13 @@ section {
     background-color: rgb(255, 249, 245);
 }
 
-#abt {
+#about {
     background-color: rgb(255, 238, 224);
     /*box shadow*/
     box-shadow: 0vw 3vw 3vw 1vw black;
 }
 
-#poo {
+#portfolio {
     box-shadow: 0vw 3vw 3vw 1vw black;
     padding-bottom: 0;
 }
@@ -273,7 +273,7 @@ footer {
     display: none;
 }
 
-/* Reference css.102 for activation notes:
+/* Reference css.102 for activation notes:*/
 
 @supports (-ms-ime-align: auto) {
     .hero {
