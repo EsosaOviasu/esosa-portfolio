@@ -104,7 +104,7 @@ header {
     background-attachment: fixed;
     color: black;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;*/
+    -webkit-background-clip: text;
 }
 
 h1 {
@@ -287,3 +287,12 @@ footer {
           -webkit-text-fill-color: inherit;
     }
   }
+
+
+@media not all and (min-resolution:.001dpcm) { 
+    @media {
+        .safari_only { 
+            -webkit-text-fill-color: inherit;
+          }
+        }
+    }
