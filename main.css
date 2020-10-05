@@ -97,15 +97,6 @@ header {
     display: inline;
     display: flex;
     flex-direction: column;
-    /*Activate these properties & css.276 for Chrome/Safari/IE exclusive effect: knockout text*/
-
-    /*background: url("https://mocah.org/uploads/posts/4589588-new-york-city-cityscape-city-usa-monochrome.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-clip: text;
-    color: black;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;*/
 }
 
 h1 {
