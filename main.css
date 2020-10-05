@@ -289,7 +289,7 @@ footer {
     }
   }
 
-@supports (-webkit-appearance:none) {
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
     .hero{
         background: url("https://mocah.org/uploads/posts/4589588-new-york-city-cityscape-city-usa-monochrome.jpg");
         background-size: cover;
