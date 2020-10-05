@@ -289,11 +289,14 @@ footer {
     }
   }
 
-
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) {
-        .safari_only { 
-            -webkit-text-fill-color: inherit;
-          }
-        }
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    .hero{
+        background: url("https://mocah.org/uploads/posts/4589588-new-york-city-cityscape-city-usa-monochrome.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-clip: text;
+        color: black;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
     }
+}
